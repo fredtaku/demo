@@ -1,4 +1,4 @@
 ---
 # tasks file for demo_role
 - name: Print hostname
-  debug: msg="{{ansible_hostname}}"
+  debug: msg="This is a Demo"
