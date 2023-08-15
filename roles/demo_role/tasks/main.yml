@@ -1,6 +1,6 @@
 ---
 # tasks file for demo_role
-- name: Print hostname
+- name: Print statement
   debug: msg="This is a Demo"
   loop:
     - 1
@@ -13,4 +13,4 @@
     - 8
     - 9
   loop_control:
-      pause: 10
+      pause: 5
