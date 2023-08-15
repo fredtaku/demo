@@ -12,4 +12,5 @@
     - 7
     - 8
     - 9
-  pause: 10
+  loop_control:
+      pause: 10
