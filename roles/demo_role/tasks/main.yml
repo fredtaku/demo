@@ -1,7 +1,7 @@
 ---
 # tasks file for demo_role
-- name: Print statement
-  debug: msg="This is a Demo"
+- name: Print statement 
+  debug: msg="This is a Demo for protiviti - paused for 5 seconds ..."
   loop:
     - 1
     - 2
